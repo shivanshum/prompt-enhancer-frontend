@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             // Send the user's request to your backend server
-            const response = await fetch('http://localhost:3000/generate-prompt', { // IMPORTANT: Change 'http://localhost:3000' to your deployed backend URL later
+            const response = await fetch('https://ai-prompt-enhancer-m5y0.onrender.com/', { // IMPORTANT: Change 'http://localhost:3000' to your deployed backend URL later
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
